@@ -1,0 +1,34 @@
+body{
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.nav-bar {
+  
+}
+
+.app-icons {
+
+}
+
+.google-logo {
+  
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #d3d3d3;
+  
+}
