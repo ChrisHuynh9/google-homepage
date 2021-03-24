@@ -13,15 +13,32 @@ li {
 }
 
 .nav-bar {
-  
+  position: relative;
+  top: 10px;
+}
+
+.nav-bar2{
+  position: relative;
+  left: 74%;
+  bottom: 5px;
 }
 
 .app-icons {
+  position: relative;
+  left: 85%;
+  bottom: 30px;
+}
 
+.sign-in-button {
+  position: relative;
+  left: 90%;
+  bottom: 60px;
 }
 
 .google-logo {
-  
+  position: relative;
+  left: 45%;
+  margin-top: 10%;
 }
 
 #footer {
