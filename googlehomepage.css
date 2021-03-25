@@ -12,44 +12,61 @@ ul {
 li {
   display: inline;
   margin-left: 8px;
+
 }
 
 .nav-bar {
   position: relative;
   top: 10px;
+  
 }
 
 .nav-bar2{
   position: relative;
-  left: 74%;
+  left: 79%;
   bottom: 5px;
 }
 
+a:visited { text-decoration: none; color:grey; }
+a:hover { text-decoration: none; color:gray; }
+a:focus { text-decoration: none; color:gray; }
+a:hover, a:active { text-decoration: none; color:gray}
+
 .app-icons {
   position: relative;
-  left: 85%;
+  left: 89%;
   bottom: 30px;
 }
 
 .sign-in-button {
   position: relative;
-  left: 90%;
+  left: 94%;
   bottom: 60px;
 }
 
 .google-logo {
   position: relative;
-  left: 45%;
-  margin-top: 10%;
+  left: 39%;
+  margin-top: 5%;
+}
+
+.mic {
+  position: relative;
+  left: 73%;
+  z-index: 2;
+  bottom: 4px;
 }
 
 #search {
+  position: relative;
   border-radius: 20px;
- height: 35px;
- width: 250px;
- z-index: 1;
- outline: none;
- padding-right: 50px;
+  height: 35px;
+  width: 250px;
+  z-index: 1;
+  outline: none;
+  padding-right: 400px;
+  left: 305px;
+  top: 30px;
 }
 
 #search-input-wrapper {
@@ -64,13 +81,25 @@ li {
   top: 0;
   bottom: 0;
   margin: auto;
-  right: 10px;
+  left: 315px;
+  top: 60px;
   background: url("https://i.ibb.co/D1dvJTV/icons8-search.gif") no-repeat center;
   background-size: 23px auto;
   height: 30px;
   width: 30px;
 }
 
+.google-button {
+  position: relative;
+  left: 39%;
+  top: 45px;
+}
+
+.lucky-button {
+  position: relative;
+  left: 50%;
+  top: 24px;
+}
 
 .footer-1 {
   position: relative;
@@ -79,7 +108,7 @@ li {
 
 .footer-2 {
   position: relative;
-  left: 80%;
+  left: 85%;
   bottom: 10px;
 }
 
