@@ -5,17 +5,19 @@
   width: 100%;
   flex-direction: column;
   flex-wrap: nowrap;
+  overflow: hidden;
 }
 
 /* main */
 
 .center {
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .google-logo {
-  margin: 180px;
-  margin-bottom: 20px;
+  margin-top: 5%;
 }
 
 input {
@@ -27,6 +29,7 @@ input {
   border-color: rgba(201, 202, 201, 0.973);
   border-radius: 50px;
   margin-bottom: 20px;
+  
   }
 
 input:hover {
@@ -35,14 +38,15 @@ input:hover {
 }
 
 form {
-    margin: auto;
+    margin-left: 30%;
+    margin-top: 10%;
 }
 
 .mic {
   width: 25px;
   height: 25px;
   display: block;
-  margin: auto;
+  margin-left: 27.5%;
   transform: translate(900%,-220%);
   border: none;
   background: transparent;
